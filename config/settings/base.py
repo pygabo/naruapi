@@ -34,9 +34,12 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 
 ]
-THIRD_PARTY_APPS = []
+THIRD_PARTY_APPS = [
+    'rest_framework',
+]
 LOCAL_APPS = [
-    'ninjas'
+    'ninjas',
+    'api',
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
